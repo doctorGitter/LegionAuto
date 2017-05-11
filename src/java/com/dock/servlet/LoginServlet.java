@@ -43,7 +43,7 @@ public class LoginServlet extends HttpServlet {
             rd.forward(request,response);  
         }   
 */
-	if( n.equals("jmat123") || n.equals("npot123") || n.equals("vbro123") ) && (p.equals("test@123")){
+	if(( n.equals("jmat123") || n.equals("npot123") || n.equals("vbro123") ) && (p.equals("test@123"))){
             RequestDispatcher rd=request.getRequestDispatcher("welcome.jsp");
             rd.forward(request,response);	
 	}
